@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+p{
+  color: #fff;
+  line-height: 100px;
+  background-color: #000;
+  text-align: center;
+  margin: 0;
+}
+/*reset already set up, this isn't neccasary atm
+/*div, p, body, header, footer, section, article, nav{
+  margin: 0;
+  padding: 0;
+}*/
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color:#313131;
+}
+a:hover, a:active {
+  text-decoration: none;
+  color: #666;
+}
+.hidden {
+  display: none;
+}
+#topBar {
+  background-color: #000;
+  height: 20px;
+}
+#siteContainer {
+  margin: 0 auto;
+  width: 920px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#mainHeader {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #000;
+}
+#logo {
+  width: 200px;
+  float: left;
+}
+#mainNav {
+  width: 500px;
+  float: right;
+}
+#promo {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #000;
+  padding-bottom: 40px;
+}
+
+#promo p{
+  line-height: 250px;
+}
+#promoText {
+  float:left;
+  width: 600px;
+}
+#promoImage {
+  float: right;
+  width: 300px;
+}
+#productInfo {
+  margin-top: 40px;
+  overflow: hidden;
+  border-bottom: solid 1px #000;
+  padding-bottom: 40px;
+}
+#productInfo p {
+  line-height: 300px
+}
+.productDesc {
+  float: left;
+  width: 200px;
+  margin-right: 40px;
+}
+.productDescLast{
+  float: right;
+  width: 200px;
+}
+#mainFooter {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+#footerNav {
+  float: left;
+  width: 500px
+}
+#copyRight {
+  float: right;
+  width: 310px;
+}
+
+/*promotional or next page*/
