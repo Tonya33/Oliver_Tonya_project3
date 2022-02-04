@@ -39,59 +39,104 @@ a:hover, a:active {
 }
 #siteContainer {
   margin: 0 auto;
-  width: 920px;
+  width: 1024px;
   padding-left: 20px;
   padding-right: 20px;
 }
 #mainHeader {
-  margin-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
-  border-bottom: solid 1px #000;
 }
 #logo {
-  width: 200px;
+  width: 308px;
   float: left;
 }
 #mainNav {
-  width: 500px;
+  width: 715px;
   float: right;
 }
-#promo {
+#Hero {
+  height: 500px;
+  margin-top: 0;
+  overflow: hidden;
+  border-bottom: solid 1px #000;
+  padding-bottom: 40px;
+}
+
+#Hero p{
+  line-height: 500px;
+}
+/*#promoText {
+  float:left;
+  width: 600px;
+}*/
+#HeroImg {
+  width: 1024px;
+  height: 500px;
+}
+#productInfo {
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-top: 40px;
   overflow: hidden;
   border-bottom: solid 1px #000;
   padding-bottom: 40px;
 }
 
-#promo p{
-  line-height: 250px;
-}
-#promoText {
-  float:left;
-  width: 600px;
-}
-#promoImage {
-  float: right;
-  width: 300px;
-}
-#productInfo {
-  margin-top: 40px;
-  overflow: hidden;
-  border-bottom: solid 1px #000;
-  padding-bottom: 40px;
-}
-#productInfo p {
-  line-height: 300px
-}
-.productDesc {
+.productDesc1 {
   float: left;
   width: 200px;
-  margin-right: 40px;
+}
+.productDesc1 p {
+  line-height: 250px
+}
+.productDesc2 {
+  justify-content: center;
+  width: 330px;
+}
+.productDesc2 p {
+  line-height: 450px;
 }
 .productDescLast{
   float: right;
-  width: 200px;
+  width: 300px;
+}
+.productDescLast p {
+  line-height: 177px;
+}
+#PromoLeft {
+  display: inline-table;
+  overflow: hidden;
+  border-bottom: solid 1px #000;
+}
+/*#LeftPromo{
+  display: grid inline-flex;
+  grid-column: 1 /span 1
+}*/
+.PromoLeftTop {
+  float: left;
+  width: 475px;
+  margin-bottom: 20px;
+}
+.PromoLeftTop p {
+  line-height: 225px
+}
+.PromoLeftBtm {
+  align-items: flex-end;
+  margin-top: 40px;
+  width: 475px;
+}
+.PromoLeftBtm p {
+  line-height: 225px
+}
+.PromoRight {
+  float: right;
+  width: 475px;
+}
+.PromoRight p {
+  line-height: 475px;
 }
 #mainFooter {
   margin-top: 40px;
