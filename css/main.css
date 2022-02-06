@@ -86,7 +86,7 @@ a:hover, a:active {
 }
 
 .productDesc1 {
-  float: left;
+  margin-left: 50px;
   width: 200px;
 }
 .productDesc1 p {
@@ -95,6 +95,7 @@ a:hover, a:active {
 .productDesc2 {
   justify-content: center;
   width: 330px;
+  margin-left: 45px;
 }
 .productDesc2 p {
   line-height: 450px;
@@ -118,18 +119,16 @@ a:hover, a:active {
 .PromoLeftTop {
   float: left;
   width: 475px;
-  margin-bottom: 20px;
 }
 .PromoLeftTop p {
-  line-height: 225px
+  line-height: 230px
 }
 .PromoLeftBtm {
   align-items: flex-end;
-  margin-top: 40px;
   width: 475px;
 }
 .PromoLeftBtm p {
-  line-height: 225px
+  line-height: 230px
 }
 .PromoRight {
   float: right;
@@ -139,14 +138,17 @@ a:hover, a:active {
   line-height: 475px;
 }
 #mainFooter {
+  background-color: #000;
   margin-top: 40px;
   margin-bottom: 40px;
+  height: 320px;
   overflow: hidden;
 }
 #footerNav {
   float: left;
-  width: 500px
+  width: 710px
 }
+
 #copyRight {
   float: right;
   width: 310px;
