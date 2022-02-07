@@ -33,8 +33,8 @@ a:hover, a:active {
 .hidden {
   display: none;
 }
-#topBar {
-  background-color: #000;
+.bottomBar {
+  background-color: #999999;
   height: 20px;
 }
 #siteContainer {
@@ -45,7 +45,6 @@ a:hover, a:active {
 }
 #mainHeader {
   margin-top: 10px;
-  padding-bottom: 10px;
   overflow: hidden;
 }
 #logo {
@@ -60,8 +59,6 @@ a:hover, a:active {
   height: 500px;
   margin-top: 0;
   overflow: hidden;
-  border-bottom: solid 1px #000;
-  padding-bottom: 40px;
 }
 
 #Hero p{
@@ -81,10 +78,8 @@ a:hover, a:active {
   align-items: baseline;
   margin-top: 40px;
   overflow: hidden;
-  border-bottom: solid 1px #000;
   padding-bottom: 40px;
 }
-
 .productDesc1 {
   margin-left: 50px;
   width: 200px;
@@ -110,7 +105,8 @@ a:hover, a:active {
 #PromoLeft {
   display: inline-table;
   overflow: hidden;
-  border-bottom: solid 1px #000;
+  padding-bottom: 40px;
+
 }
 /*#LeftPromo{
   display: grid inline-flex;
@@ -137,6 +133,64 @@ a:hover, a:active {
 .PromoRight p {
   line-height: 475px;
 }
+#AboutSection {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+#AboutImg {
+  float: right;
+  width: 400px;
+}
+#AboutImg p {
+  line-height: 400px;
+}
+#Article {
+float: left;
+width: 370px;
+
+}
+#Article p {
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+#Article p span {
+  font-size: 2em;
+  margin-left: 20px;
+}
+#Ingredients {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.Ingredient {
+  width: 250px;
+}
+.Ingredient p {
+  line-height: 250px;
+}
+
+#IngredText {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.IngredDesc {
+  width: 250px;
+}
+.IngredDesc p {
+  line-height: 50px;
+}
+
+
+
 #mainFooter {
   background-color: #000;
   margin-top: 40px;
