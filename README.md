@@ -1,1 +1,1 @@
-# Tykie & Resolve Mashup Scaffold
+# Scaffold Project

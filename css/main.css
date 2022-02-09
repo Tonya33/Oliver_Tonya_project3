@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 p{
-  color: #fff;
+  color: #333333;
   line-height: 100px;
-  background-color: #000;
+  background-color: #b3b3b3;
   text-align: center;
   margin: 0;
 }
@@ -51,9 +51,15 @@ a:hover, a:active {
   width: 308px;
   float: left;
 }
+#logo p {
+  line-height: 100px;
+}
 #mainNav {
   width: 715px;
   float: right;
+}
+#mainNav p{
+  line-height: 100px
 }
 #Hero {
   height: 500px;
@@ -102,10 +108,13 @@ a:hover, a:active {
 .productDescLast p {
   line-height: 177px;
 }
-#PromoLeft {
+#Promos {
   display: inline-table;
+  justify-content: center;
   overflow: hidden;
   padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 20px;
 
 }
 /*#LeftPromo{
@@ -120,11 +129,12 @@ a:hover, a:active {
   line-height: 230px
 }
 .PromoLeftBtm {
-  align-items: flex-end;
+  float: left;
   width: 475px;
+  margin-top: 20px;
 }
 .PromoLeftBtm p {
-  line-height: 230px
+  line-height: 230px;
 }
 .PromoRight {
   float: right;
@@ -159,7 +169,7 @@ width: 370px;
 }
 #Article p span {
   font-size: 2em;
-  margin-left: 20px;
+  text-align: left;
 }
 #Ingredients {
   display:flex;
@@ -197,6 +207,9 @@ width: 370px;
   margin-bottom: 40px;
   height: 320px;
   overflow: hidden;
+}
+#mainFooter p{
+  line-height: 320px;
 }
 #footerNav {
   float: left;
