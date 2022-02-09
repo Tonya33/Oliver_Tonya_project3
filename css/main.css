@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 p{
-  color: #fff;
+  color: #333333;
   line-height: 100px;
-  background-color: #000;
+  background-color: #b3b3b3;
   text-align: center;
   margin: 0;
 }
@@ -33,75 +33,189 @@ a:hover, a:active {
 .hidden {
   display: none;
 }
-#topBar {
-  background-color: #000;
+.bottomBar {
+  background-color: #999999;
   height: 20px;
 }
 #siteContainer {
   margin: 0 auto;
-  width: 920px;
+  width: 1024px;
   padding-left: 20px;
   padding-right: 20px;
 }
 #mainHeader {
-  margin-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 10px;
   overflow: hidden;
-  border-bottom: solid 1px #000;
 }
 #logo {
-  width: 200px;
+  width: 308px;
   float: left;
+}
+#logo p {
+  line-height: 100px;
 }
 #mainNav {
-  width: 500px;
+  width: 715px;
   float: right;
 }
-#promo {
-  margin-top: 40px;
+#mainNav p{
+  line-height: 100px
+}
+#Hero {
+  height: 500px;
+  margin-top: 0;
   overflow: hidden;
-  border-bottom: solid 1px #000;
-  padding-bottom: 40px;
 }
 
-#promo p{
-  line-height: 250px;
+#Hero p{
+  line-height: 500px;
 }
-#promoText {
+/*#promoText {
   float:left;
   width: 600px;
-}
-#promoImage {
-  float: right;
-  width: 300px;
+}*/
+#HeroImg {
+  width: 1024px;
+  height: 500px;
 }
 #productInfo {
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-top: 40px;
   overflow: hidden;
-  border-bottom: solid 1px #000;
   padding-bottom: 40px;
 }
-#productInfo p {
-  line-height: 300px
-}
-.productDesc {
-  float: left;
+.productDesc1 {
+  margin-left: 50px;
   width: 200px;
-  margin-right: 40px;
+}
+.productDesc1 p {
+  line-height: 250px
+}
+.productDesc2 {
+  justify-content: center;
+  width: 330px;
+  margin-left: 45px;
+}
+.productDesc2 p {
+  line-height: 450px;
 }
 .productDescLast{
   float: right;
-  width: 200px;
+  width: 300px;
 }
+.productDescLast p {
+  line-height: 177px;
+}
+#Promos {
+  display: inline-table;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 20px;
+
+}
+/*#LeftPromo{
+  display: grid inline-flex;
+  grid-column: 1 /span 1
+}*/
+.PromoLeftTop {
+  float: left;
+  width: 475px;
+}
+.PromoLeftTop p {
+  line-height: 230px
+}
+.PromoLeftBtm {
+  float: left;
+  width: 475px;
+  margin-top: 20px;
+}
+.PromoLeftBtm p {
+  line-height: 230px;
+}
+.PromoRight {
+  float: right;
+  width: 475px;
+}
+.PromoRight p {
+  line-height: 475px;
+}
+#AboutSection {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+#AboutImg {
+  float: right;
+  width: 400px;
+}
+#AboutImg p {
+  line-height: 400px;
+}
+#Article {
+float: left;
+width: 370px;
+
+}
+#Article p {
+  line-height: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+#Article p span {
+  font-size: 2em;
+  text-align: left;
+}
+#Ingredients {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.Ingredient {
+  width: 250px;
+}
+.Ingredient p {
+  line-height: 250px;
+}
+
+#IngredText {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.IngredDesc {
+  width: 250px;
+}
+.IngredDesc p {
+  line-height: 50px;
+}
+
+
+
 #mainFooter {
+  background-color: #000;
   margin-top: 40px;
   margin-bottom: 40px;
+  height: 320px;
   overflow: hidden;
+}
+#mainFooter p{
+  line-height: 320px;
 }
 #footerNav {
   float: left;
-  width: 500px
+  width: 710px
 }
+
 #copyRight {
   float: right;
   width: 310px;
